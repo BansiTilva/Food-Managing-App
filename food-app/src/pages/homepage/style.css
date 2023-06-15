@@ -1,0 +1,35 @@
+.favorites-wrapper{
+    flex-direction: column;
+    display: flex;
+}
+.search-favorites input{
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.favorites{
+    display: flex;
+    gap:25px;
+    overflow: auto;
+    margin-bottom: 30px;
+    border: 5px solid whitesmoke;
+    scroll-behavior: smooth;
+}
+.items{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.favorites-title{
+    color: rgba(250, 100, 0, 1);
+    font-weight: 700;
+}
+.loading,.no-items{
+    font-size: 50px;
+    text-transform:uppercase;
+    color:white;
+}

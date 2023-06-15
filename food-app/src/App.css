@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  font-size: larger;
+  background-color: navy;
+  min-height: 100vh;
+  height: 100%;
+  padding: 15px;
+  
+}
